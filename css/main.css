@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Adelle Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -39,6 +39,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 1rem .5rem;
+  background-color: #d8ad54;
 }
 
 h1 {
@@ -69,30 +70,41 @@ nav li {
 }
 
 nav a {
-  color: #3783a3;
-  text-decoration-color: rgba(55, 131, 163, .4);
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ba4850;
+  text-decoration: underline;
+}
+
+main {
+  background-color: #141518;
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
 }
 
 main img {
   margin-bottom: 1.5rem;
+  border-radius: .3rem;
 }
 
 .intro {
   margin: 0 auto 1.5rem;
   max-width: 30em;
   padding: 1rem;
-  border-bottom: .2rem solid #e2e2e2;
-  border-top: .2rem solid #e2e2e2;
+  border-bottom: .1rem solid #d8ad54;
+  border-top: .1rem solid #d8ad54;
   text-align: center;
+  color: #9ba0a5;
 }
 
-.intro i {
-  font-size: 2rem;
-}
-
-main {
-  margin-bottom: 1.5rem;
-  padding: 0 1rem;
+h2 {
+  color: #d8ad54;
+  margin-top: 4rem;
+  font-weight: lighter;
 }
 
 section {
@@ -106,37 +118,45 @@ article {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  background-color: #202124;
+  padding-bottom: 1rem;
 }
 
-h2 {
+h3 {
   display: flex;
   flex-direction: column;
   align-items: start;
   margin: 0 0 1.5rem;
   font-size: 1.5rem;
-}
-
-h2 span {
-  font-size: 1rem;
+  color: #9ba0a5;
 }
 
 article p {
   margin: 0 0 1.5rem;
+  color: #9ba0a5;
 }
 
 article a {
-  border: .2rem solid rgba(55, 131, 163, .4);
-  color: #3783a3;
+  border: .2rem;
+  color: #fff;
+  background-color: #ba4850;
   text-decoration: none;
   padding: .5em 1em .6em;
   margin-top: auto;
   border-radius: .3rem;
 }
 
+article a:hover {
+  color: #d8ad54;
+}
+
 footer {
-  padding: 1rem;
-  border-top: .2rem solid #e2e2e2;
+  margin-top: 0;
+  border-top: 2rem solid #141518;
+  padding: 3rem;
   text-align: center;
+  background-color: #202124;
+  color: #9ba0a5;
 }
 
 @media only screen and (min-width: 38em) {
@@ -157,5 +177,3 @@ footer {
   }
 
 }
-
-hvhvtctt
