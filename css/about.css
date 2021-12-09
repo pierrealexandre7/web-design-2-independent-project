@@ -12,6 +12,8 @@ html {
   box-sizing: border-box;
   font-family: "Adelle Sans", sans-serif;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 
 *,
